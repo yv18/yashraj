@@ -11,6 +11,15 @@ html {
     background-color: #F7F7F7;
   }
 
+    .img {
+    background: url("profile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+  }
+
   .main-container {
     background-color: white;
   }
