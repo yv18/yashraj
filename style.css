@@ -271,7 +271,7 @@ ul {
 
     .icon {
       position: relative;
-      background: url("/instagram.png");
+      background: url("instagram.png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -283,7 +283,7 @@ ul {
   
     .icon2 {
       position: relative;
-      background: url("/facebook\ \(1\).png");
+      background: url("facebook\ \(1\).png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -295,7 +295,7 @@ ul {
   
     .icon3 {
       position: relative;
-      background: url("/github.png");
+      background: url("github.png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
