@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F7F7F7;
+  }
+
+  .main-container {
+    background-color: white;
+  }
+
+span {
+    color: #667FEA;
+}
+
+.data-me a {
+        padding: 10px;
+        background-color: #667FEA;
+        color: white;
+        border-radius: 10px;
+        transition: .2s ease-in-out;
+}
+
+.data-me a:hover {
+    background-color: black;
+}
+
+.details{
+    margin-top: 10px;
+}
+
+.details a & p {
+    font-size: 24px;
+}
+.project-content {
+  gap:30px;
+}
+.details a {
+    padding: 10px;
+    background-color: #3b5efb;
+    color: white;
+    border-radius: 10px;
+}
+
+@keyframes imgani {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }  
+
+ 
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .front-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  ul li {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #667FEA;
+    border-radius: 10px;
+  }
+
+ 
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 700px;
+    gap:50px;
+}
+
+.data-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    background-color: #667FEA;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    animation: imgani 1.5s ease-in-out 0s infinite alternate;
+}
+
+.project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.prjct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.project-list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+
+
+.projec1 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 160px;
+    width: 375px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.skills-list {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+
+.front-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        gap:50px;
+    }
+    
+    .data-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .profile-pic {
+        display: flex;
+        justify-content: center;
+        background-color: #667FEA;
+        border-radius: 50%;
+        height: 285px;
+        width: 225px;
+        overflow: hidden;
+        margin: 0;
+        animation: imgani 1.5s ease-in-out 0s infinite alternate;
+    }
+
+    .project-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+
+    .project-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    
+    .projec1 {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        height: 160px;
+        width: 375px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .skills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .skills-list {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        padding-right: 20px;
+    }
+
+    
+    .front-end {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .icon {
+      position: relative;
+      background: url("/instagram.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      bottom: 45%;
+      left: 20%;
+      z-index: 1;
+    }
+  
+    .icon2 {
+      position: relative;
+      background: url("/facebook\ \(1\).png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      bottom: 35%;
+      right: 35%;
+      z-index: 1;
+    }
+  
+    .icon3 {
+      position: relative;
+      background: url("/github.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      bottom: 45%;
+      left: 30%;
+      z-index: 1;
+    }
+    
+  
+  
+  }
+
+ 
