@@ -10,7 +10,10 @@ html {
   body {
     background-color: #F7F7F7;
   }
-
+img {
+    height: 150px;
+    width: 150px;
+}
   .main-container {
     background-color: white;
   }
